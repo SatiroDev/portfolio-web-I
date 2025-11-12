@@ -19,14 +19,14 @@ O principal objetivo deste projeto é criar uma página web responsiva e semânt
 ## 🧩 Estrutura do Projeto
 
 ```
-portfolio/
+portfolio-web-I/
 ├── index.html
-├── /css
-│ └── style.css
-├── /img
-│ └── (imagens utilizadas no site)
-└── /docs (opcional)
-└── (currículos ou outros arquivos)
+├── css/
+│    └── style.css
+├── img/
+│    └── (imagens utilizadas no site)
+└── docs/ (opcional)
+     └── (currículos ou outros arquivos)
 ```
 
 ---
@@ -91,7 +91,7 @@ O arquivo `style.css` contém:
 🛠️ **Status:** Em desenvolvimento  
 
 O site está hospedado no **GitHub Pages**:  
-🔗 **[Acessar Portfólio](https://seuusuario.github.io/portfolio/)**  
+🔗 **[Acessar Portfólio](https://satirodev.github.io/portfolio-web-I/)**  
 
 > *Versão inicial — novas seções e melhorias serão adicionadas em breve.*
 
