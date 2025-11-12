@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border: solid transparent;
+}
+
+.headerGeral {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+}
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #AD46FF;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    
+}
+
+.tituloPortfolio {
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+    color: #AD46FF;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-right: 35px;
+    flex-wrap: wrap;
+}
+
+.imagemCod {
+    width: 25px;
+}
+
+a {
+    color: #848B97;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AD46FF;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-top: 100px;
+}
+
+.inicio {
+    padding: 50px;
+    border-bottom: 1px solid #AD46FF;
+}
+
+.devFull {
+    font-size: 18px;
+    margin-left: 4%;
+}
+
+.descInicio {
+    max-width: 650px;
+    min-width: 200px;
+    color: #848B97;
+    margin-left: 4%;
+}
+
+.sobreMim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid #AD46FF;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.parteEsquerda {
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.minhaFoto {
+    width: 300px;
+    border-radius: 15px;
+}
