@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     width: 90%;
     flex-wrap: wrap;
+    background-color: black;
 }
 header {
     position: fixed;
@@ -20,7 +21,7 @@ header {
     width: 100%;
     height: auto;
     min-height: 80px;
-    
+    background-color: black;
 }
 
 .tituloPortfolio {
@@ -50,6 +51,7 @@ a {
 
 a:hover {
     color: #AD46FF;
+    
 }
 
 main {
@@ -60,38 +62,141 @@ main {
 }
 
 .inicio {
+    display: flex;
+    flex-direction: column;
     padding: 50px;
     border-bottom: 1px solid #AD46FF;
+    row-gap: 15px;
+    height: 250px;
 }
 
 .devFull {
     font-size: 18px;
-    margin-left: 4%;
+    margin-left: 10%;
 }
 
 .descInicio {
+    margin-top: 0px;
     max-width: 650px;
     min-width: 200px;
     color: #848B97;
-    margin-left: 4%;
+    margin-left: 10%;
 }
+
+.botoes {
+    display: flex;
+    margin-left: 10%;
+    column-gap: 15px;
+}
+
+.verProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #AD46FF;
+    transition: 0.2s ease;
+
+}
+
+.verProjetos:hover {
+    background-color: #9e2bfc;
+    color: white;
+    transition: 0.2s ease;
+    scale: 1.05;
+}
+
+.entrarEmContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: #AD46FF;
+    border: 1px solid #AD46FF;
+    transition: 0.2s ease;
+}
+
+.entrarEmContato:hover {
+    background-color: #9e2bfc;
+    color: white;
+    transition: 0.2s ease;
+    scale: 1.05;
+}
+
 
 .sobreMim {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
     border-bottom: 1px solid #AD46FF;
     flex-wrap: wrap;
     column-gap: 30px;
+    min-height: 500px;
+    height: auto;
 }
 
-.parteEsquerda {
-    max-width: 500px;
+.geralSobreMim {
+    display: flex;
+    margin-left: 10%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.infoGeral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tituloSobreMim {
+    margin-bottom: 0px;
+}
+
+.subTSobreMim {
+    margin-top: 5px;
+}
+
+.descSobreMim {
+    color: #848B97;
+    max-width: 650px;
     min-width: 200px;
 }
 
+.gitHub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #AD46FF;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.gitHub:hover {
+    background-color: #4d028a;
+    transition: 0.2s ease;
+}
+
+.git {
+    width: 25px;
+}
+
 .minhaFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     border-radius: 15px;
+    border: 2px solid #AD46FF;
+    box-shadow: 15px 15px 5px 1px #AD46FF;
 }
