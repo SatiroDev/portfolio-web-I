@@ -1,8 +1,9 @@
 body {
+    display: flex;
     margin: 0;
     padding: 0;
     background-color: black;
-    border: solid transparent;
+
 }
 
 .headerGeral {
@@ -22,6 +23,7 @@ header {
     height: auto;
     min-height: 80px;
     background-color: black;
+    z-index: 1;
 }
 
 .tituloPortfolio {
@@ -71,8 +73,7 @@ main {
 }
 
 .devFull {
-    font-size: 18px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .descInicio {
@@ -80,12 +81,13 @@ main {
     max-width: 650px;
     min-width: 200px;
     color: #848B97;
-    margin-left: 10%;
+    margin-left: 5%;
+    font-size: 18px;
 }
 
 .botoes {
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
     column-gap: 15px;
 }
 
@@ -99,7 +101,10 @@ main {
     color: white;
     background-color: #AD46FF;
     transition: 0.2s ease;
+}
 
+.entrarEmContato {
+    text-align: center;
 }
 
 .verProjetos:hover {
@@ -144,8 +149,8 @@ main {
 
 .geralSobreMim {
     display: flex;
-    margin-left: 10%;
-    gap: 50px;
+    margin-left: 5%;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
@@ -168,6 +173,7 @@ main {
     color: #848B97;
     max-width: 650px;
     min-width: 200px;
+    font-size: 18px;
 }
 
 .gitHub {
@@ -197,6 +203,94 @@ main {
     align-items: center;
     width: 300px;
     border-radius: 15px;
-    border: 2px solid #AD46FF;
     box-shadow: 15px 15px 5px 1px #AD46FF;
 }
+
+.parteDireita {
+    display: flex;
+    justify-content: center;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.tituloProjetos {
+    text-align: center;
+}
+
+.tituloMeusProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    color: #AD46FF;
+}
+
+h3 {
+    font-style: normal;
+    color: #848B97;
+    margin-top: 0px;
+}
+.iconFolder {
+    width: 30px;
+}
+
+.meusProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    min-height: 750px;
+    height: auto;
+}
+
+.todosProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 5px;
+}
+
+.projeto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 25px;
+    border: 1px solid #AD46FF;
+    max-width: 550px;
+    min-width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    transition: 0.2s ease;
+}
+
+.projeto:hover {
+    border: 1px solid #4d028a;
+    scale: 1.05;
+    transition: 0.2s ease;
+    box-shadow: 0 0 1px 1px #AD46FF;
+}
+
+.tituloProjeto {
+    font-size: 18px;
+}
+
+.descProjeto {
+    width: 350px;
+    min-width: 250px;
+    margin-right: 15px;
+    color: #848B97;
+}
+
+.linkProjeto {
+    color: #AD46FF;
+    transition: 0.2s ease;
+}
+
+.linkProjeto:hover {
+    color: #9e2bfc;
+    transition: 0.2s ease;
+}
+
