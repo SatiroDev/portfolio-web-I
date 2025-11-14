@@ -69,11 +69,10 @@ main {
     padding: 50px;
     border-bottom: 1px solid #AD46FF;
     row-gap: 15px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .devFull {
-    margin-left: 5%;
 }
 
 .descInicio {
@@ -81,13 +80,11 @@ main {
     max-width: 650px;
     min-width: 200px;
     color: #848B97;
-    margin-left: 5%;
     font-size: 18px;
 }
 
 .botoes {
     display: flex;
-    margin-left: 5%;
     column-gap: 15px;
 }
 
@@ -149,7 +146,8 @@ main {
 
 .geralSobreMim {
     display: flex;
-    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
     gap: 80px;
     flex-wrap: wrap;
 }
@@ -210,7 +208,7 @@ main {
     display: flex;
     justify-content: center;
     max-width: 450px;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 .tituloProjetos {
@@ -242,6 +240,8 @@ h3 {
     width: auto;
     min-height: 750px;
     height: auto;
+    padding-left: 5px;
+    border-bottom: 1px solid #AD46FF;
 }
 
 .todosProjetos {
