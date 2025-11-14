@@ -73,6 +73,7 @@ main {
 }
 
 .devFull {
+    color: #AD46FF;
 }
 
 .descInicio {
@@ -162,9 +163,11 @@ main {
 
 .tituloSobreMim {
     margin-bottom: 0px;
+    color: #AD46FF;
 }
 
 .subTSobreMim {
+    color: white;
     margin-top: 5px;
 }
 
@@ -226,7 +229,6 @@ main {
 
 h3 {
     font-style: normal;
-    color: #848B97;
     margin-top: 0px;
 }
 .iconFolder {
@@ -243,6 +245,7 @@ h3 {
     height: auto;
     padding-left: 5px;
     border-bottom: 1px solid #AD46FF;
+    row-gap: 15px;
 }
 
 .todosProjetos {
@@ -295,3 +298,108 @@ h3 {
     transition: 0.2s ease;
 }
 
+.minhasHabilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #AD46FF;
+    min-height: 1000px;
+    height: auto;
+    row-gap: 15px;
+}
+
+.tituloHabilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    color: #AD46FF;
+}
+
+.subTituloH {
+    color: white;
+}
+
+.medal {
+    width: 30px;
+}
+
+
+.tabelaHabilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid #AD46FF;
+    border-radius: 15px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.tituloTabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right, #11011e, #010003);
+}
+
+.aux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.linhasTabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #AD46FF;
+    background: linear-gradient(to right, #11011e, #010003);
+    transition: 1s ease;
+}
+
+.linha:hover {
+    transition: 0.2s ease;
+    background: #26073f;
+}
+
+
+.hTabela {
+    text-align: center;
+    width: 150px;
+}
+
+.conteudoLinha {
+    text-align: center;
+    width: 150px;
+}
+
+.nivel {
+    text-align: center;
+    width: 130px;
+    border-radius: 5px;
+    height: 100%;
+    background-color: #9e2bfc;
+}
