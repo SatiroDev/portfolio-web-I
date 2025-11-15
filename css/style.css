@@ -390,106 +390,39 @@ h3 {
     width: 30px;
 }
 
-
-.tabelaHabilidades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70%;
-    min-width: 350px;   
-    border: 1px solid #AD46FF;
+table {
+    width: 100%;
+    max-width: 750px;
+    min-width: 100px;   
     border-radius: 15px;
     font-size: 18px;
     overflow: hidden;
+    border-collapse: collapse;
+    box-shadow: 0 0 4px #AD46FF;
 }
 
-.tituloTabela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+tr {
+    border-bottom: 1px solid #AD46FF;
+    transition: 0.2s ease;
     background: linear-gradient(to right, #11011e, #010003);
 }
 
-.aux {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    column-gap: 10px;
-}
-.auxT {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    column-gap: 5px;
-}
-
-.linhasTabela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.linha {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-top: 1px solid #AD46FF;
-    background: linear-gradient(to right, #11011e, #010003);
-    transition: 1s ease;
-}
-
-.linha:hover {
+tr:hover {
     transition: 0.2s ease;
     background: #26073f;
 }
 
-
-.hTabelaL {
-    display: flex;
+.linhaTitulo:hover {
+    background: linear-gradient(to right, #11011e, #010003);
 }
 
-.hTabela {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.hTabelaR {
-    display: flex;
-    justify-content: right;
-    text-align: right;
+th {
+    text-align: left;
+    color: #AD46FF;
 }
 
-.conteudoLinhaL {
-    width: 150px;
-}
-
-.conteudoLinha {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 150px;
-
-}
-.conteudoLinhaR {
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    width: 150px;
-}
-
-.nivel {
-    text-align: center;
-    width: 180px;
-    border-radius: 5px;
-    height: 100%;
-    background-color: #9e2bfc;
+th, td {
+    padding: 15px;
 }
 
 
@@ -592,7 +525,7 @@ footer {
     min-height: 250px;
     flex-direction: column;
     padding: 15px;
-    background: linear-gradient(to top, #050008, #000000, black);
+    background: linear-gradient(to top, #1a0029, #000000, #000000, #000000, #000000);
 }
 
 .hFooter {
