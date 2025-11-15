@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Portfólio</title>
 </head>
 <body>
@@ -32,11 +34,11 @@
             </p>
             <div class="botoes">
                 
-                <a href="" class="verProjetos">
+                <a href="#projetos" class="verProjetos">
                     Ver Projetos
                 </a>
                 
-                <a href="" class="entrarEmContato">
+                <a href="#contato" class="entrarEmContato">
                     Entrar em Contato
                 </a>
                 
@@ -61,6 +63,9 @@
                     <div class="icons">
                         <a href="https://github.com/SatiroDev" class="gitHub">
                             <img src="./img/iconGitHub.svg" alt="iconGitHub" class="git">
+                        </a>
+                        <a href="https://instagram.com/j.satiropde7_" class="instagram">
+                            <img src="./img/iconInsta.svg" alt="iconInsta" class="insta">
                         </a>
                     </div>
                 </div>
@@ -127,7 +132,7 @@
                 </div>
             </div>
         </div>
-        <div class="minhasHabilidades">
+        <div class="minhasHabilidades" id="habilidades">
             <div class="tituloHabilidade">
                 <div class="tituloH">
                     <img src="./img/iconMedal.svg" alt="iconMedal" class="medal">
@@ -199,6 +204,43 @@
                 </div>
             </div>
         </div>
+        <div class="contato" id="contato">
+            <div class="tituloContato">
+                <div class="tituloC">
+                    <img src="./img/iconPlaneP.svg" alt="iconPlaneP" class="plane">
+                    <h1 class="titC">Entre em Contato</h1>
+                </div>
+                <div class="subTituloContato">
+                <h3 class="subT">
+                    Tem algum projeto em mente? Vamos conversar!
+                </h3>
+            </div>
+            </div>
+            
+            <form action="/enviar">
+                <label for="nome">Nome *</label>
+                <textarea type="text" name="nome" id="nome" rows="1" placeholder="Seu nome completo" required></textarea>
+
+                <label for="email">E-mail *</label>
+                <textarea type="email" name="email" id="email" rows="1" placeholder="seu.email@exemplo.com" required></textarea>
+
+                <label for="assunto">Assunto *</label>
+                <textarea type="text" name="assunto" id="assunto" rows="1" placeholder="Assunto da mensagem" required></textarea>
+
+                <label for="mensagem">Mensagem *</label>
+                <textarea type="text" name="mensagem" id="mensagem" rows="3" placeholder="Digite sua mensagem aqui..." required></textarea>
+
+                <button>
+                    <img src="./img/iconPlaneW.svg" alt="" class="planeB">
+                    <p class="textoBotao">Enviar Mensagem</p>
+                </button>
+            </form>
+        </div>
     </main>
+    <footer>
+        <p class="foot">
+            © 2025 José Satiro | Desenvolvimento Web I
+        </p>
+    </footer>
 </body>
 </html>

@@ -1,9 +1,10 @@
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: black;
-
+     font-family: 'JetBrains Mono', monospace;
 }
 
 .headerGeral {
@@ -116,7 +117,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 180px;
     height: 35px;
     border-radius: 5px;
     background-color: white;
@@ -178,6 +179,11 @@ main {
     font-size: 18px;
 }
 
+.icons {
+    display: flex;
+    column-gap: 15px;
+}
+
 .gitHub {
     display: flex;
     justify-content: center;
@@ -196,6 +202,27 @@ main {
 }
 
 .git {
+    width: 25px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #AD46FF;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.instagram:hover {
+    background-color: #4d028a;
+    transition: 0.2s ease;
+}
+
+.insta {
     width: 25px;
 }
 
@@ -242,7 +269,6 @@ h3 {
     flex-direction: column;
     width: auto;
     min-height: 750px;
-    height: auto;
     padding-left: 5px;
     border-bottom: 1px solid #AD46FF;
     row-gap: 15px;
@@ -264,7 +290,7 @@ h3 {
     padding-left: 25px;
     border: 1px solid #AD46FF;
     max-width: 20%;
-    min-width: 250px;
+    min-width: 280px;
     height: 300px;
     border-radius: 15px;
     transition: 0.2s ease;
@@ -339,6 +365,7 @@ h3 {
     align-items: center;
     flex-direction: column;
     width: 80%;
+    min-width: 450px;   
     border: 1px solid #AD46FF;
     border-radius: 15px;
     font-size: 20px;
@@ -358,7 +385,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    
+    column-gap: 30px;
 }
 
 .linhasTabela {
@@ -367,7 +394,6 @@ h3 {
     align-items: center;
     flex-direction: column;
     width: 100%;
-
 }
 
 .linha {
@@ -389,6 +415,8 @@ h3 {
 .hTabela {
     text-align: center;
     width: 150px;
+    min-width: 50px;
+    border: solid transparent;
 }
 
 .conteudoLinha {
@@ -398,8 +426,108 @@ h3 {
 
 .nivel {
     text-align: center;
-    width: 130px;
+    width: 180px;
     border-radius: 5px;
     height: 100%;
     background-color: #9e2bfc;
+}
+
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 900px;
+    border-bottom: 1px solid #AD46FF;
+    row-gap: 20px;
+}
+
+.plane {
+    width: 30px;
+}
+
+.tituloContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.titC {
+    color: #AD46FF;
+}
+
+.subTituloContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subT {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: solid;
+    width: 50%;
+    padding: 30px;
+
+    border: 1px solid #AD46FF;
+    border-radius: 10px;
+    background: linear-gradient(to right, #050008, #010003);
+}
+
+.planeB {
+    width: 15px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #AD46FF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AD46FF;
+    transition: 0.2 ease;
+    border: none;
+    column-gap: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #9e2bfc;
+    transition: 0.2 ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 100px;
 }
