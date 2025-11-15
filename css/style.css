@@ -66,11 +66,12 @@ main {
 
 .inicio {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 50px;
     border-bottom: 1px solid #AD46FF;
     row-gap: 15px;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .devFull {
@@ -272,6 +273,7 @@ h3 {
     padding-left: 5px;
     border-bottom: 1px solid #AD46FF;
     row-gap: 15px;
+    padding: 25px;
 }
 
 .todosProjetos {
@@ -333,6 +335,7 @@ h3 {
     min-height: 1000px;
     height: auto;
     row-gap: 15px;
+    padding: 25px;
 }
 
 .tituloHabilidade {
@@ -365,10 +368,10 @@ h3 {
     align-items: center;
     flex-direction: column;
     width: 80%;
-    min-width: 450px;   
+    min-width: 380px;   
     border: 1px solid #AD46FF;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 18px;
     overflow: hidden;
 }
 
@@ -517,6 +520,7 @@ button {
     column-gap: 15px;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
