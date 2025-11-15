@@ -95,8 +95,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 150px;
-    height: 35px;
+    min-height: 35px;
     border-radius: 5px;
     color: white;
     background-color: #AD46FF;
@@ -119,7 +120,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 180px;
-    height: 35px;
+    min-height: 35px;
     border-radius: 5px;
     background-color: white;
     color: #AD46FF;
@@ -142,7 +143,6 @@ main {
     padding: 50px;
     border-bottom: 1px solid #AD46FF;
     flex-wrap: wrap;
-    column-gap: 30px;
     min-height: 500px;
     height: auto;
 }
@@ -151,7 +151,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 15px;
     flex-wrap: wrap;
     width: 90%;
 }
@@ -233,7 +233,7 @@ main {
     align-items: center;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 15px 15px 5px 1px #AD46FF;
+    box-shadow: 10px 10px 5px 1px #AD46FF;
 }
 
 .parteDireita {
@@ -353,7 +353,12 @@ h3 {
     color: #AD46FF;
 }
 
+.titH {
+    text-align: center;
+}
+
 .subTituloH {
+    text-align: center;
     color: white;
 }
 
@@ -367,8 +372,8 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
-    min-width: 380px;   
+    width: 70%;
+    min-width: 350px;   
     border: 1px solid #AD46FF;
     border-radius: 15px;
     font-size: 18px;
@@ -387,8 +392,15 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    column-gap: 30px;
+    width: 70%;
+    column-gap: 10px;
+}
+.auxT {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    column-gap: 5px;
 }
 
 .linhasTabela {
@@ -415,15 +427,31 @@ h3 {
 }
 
 
+.hTabelaL {
+    display: flex;
+}
+
 .hTabela {
+    display: flex;
+    justify-content: center;
     text-align: center;
+}
+.hTabelaR {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.conteudoLinhaL {
     width: 150px;
-    min-width: 50px;
-    border: solid transparent;
 }
 
 .conteudoLinha {
     text-align: center;
+    width: 150px;
+}
+.conteudoLinhaR {
+    text-align: right;
     width: 150px;
 }
 
@@ -484,7 +512,7 @@ form {
     justify-content: space-between;
     flex-direction: column;
     border: solid;
-    width: 50%;
+    width: 60%;
     padding: 30px;
 
     border: 1px solid #AD46FF;
@@ -532,6 +560,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     min-height: 100px;
 }
